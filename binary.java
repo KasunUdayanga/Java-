@@ -5,11 +5,11 @@ public class binary {
     int[] getArray(){
 
   
-        System.out.println("Enter size of arry :");
+        System.out.println("Enter size of array :");
         int n=sc.nextInt();
         int a[]=new int[n];
         for (int i = 0; i < a.length; i++) {
-            System.out.println("Enter the Arry element "+(i+1)+": ");
+            System.out.println("Enter the Array element "+(i+1)+": ");
             a[i]=sc.nextInt();
         }
         return a;
@@ -22,14 +22,14 @@ public class binary {
         
     }
     int binarySearch(int ar[],int searchEle){
-        int lowerbound=0;
+        int lowerBound=0;
         int upperBound=ar.length;
-        while (lowerbound<=upperBound) {
-            int mid =(lowerbound+upperBound)/2;
+        while (lowerBound<=upperBound) {
+            int mid =(lowerBound+upperBound)/2;
                 if (ar[mid]==searchEle) {
                     return mid;
                 }else if(searchEle>ar[mid]){
-                   return lowerbound=mid+1;
+                   return lowerBound=mid+1;
                 }else{
                    return upperBound=mid-1;
                 }
