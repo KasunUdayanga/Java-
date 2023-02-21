@@ -1,6 +1,6 @@
 class Merge {  
   
-    /* Function to merge the subarrays of a[] */  
+    /* Function to merge the sub arrays of a[] */  
     void merge(int a[], int beg, int mid, int end)    
     {    
         int i, j, k;  
