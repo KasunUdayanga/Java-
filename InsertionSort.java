@@ -29,6 +29,8 @@ class InsertionSort
 	{
 		int arr[] = { 12, 11, 13, 5, 6 };
 		InsertionSort ob = new InsertionSort();
+		System.out.println("Unsorted array");
+		ob.printArray(arr);
 		ob.sort(arr);
 		System.out.println("Sorted array");
 		ob.printArray(arr);
