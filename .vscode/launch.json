@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "binary",
+      "request": "launch",
+      "mainClass": "binary",
+      "projectName": "Java-_73e11f65"
+    },
+    {
+      "type": "java",
+      "name": "Binary2",
+      "request": "launch",
+      "mainClass": "Binary2",
+      "projectName": "Java-_73e11f65"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

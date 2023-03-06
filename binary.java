@@ -3,8 +3,6 @@ public class binary {
   
     Scanner sc =new Scanner(System.in);
     int[] getArray(){
-
-  
         System.out.println("Enter size of array :");
         int n=sc.nextInt();
         int a[]=new int[n];
@@ -40,6 +38,11 @@ public class binary {
         binary ob=new binary();
     int a[]=ob.getArray();
     int b=ob.getSearchElement();
-       System.out.println( "Index of the element: "+ob.binarySearch(a, b));
+      // System.out.println( "Index of the element: "+ob.binarySearch(a, b));
+      int n= ob.binarySearch(a, b) ;
+      if (n == -1) 
+      System.out.println("Element not present");
+    else
+      System.out.println("Element found at "+ "index " + n);
     }
-}
+    }
